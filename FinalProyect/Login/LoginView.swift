@@ -20,6 +20,22 @@ class LoginView: UIViewController {
         super.viewDidLoad()
         presenter?.viewDidLoad()
     }
+    
+    
+    
+    @IBAction func ingresar(_ sender: Any) {
+    }
+    
+    
+    @IBAction func registrar(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
+    
+    
 }
 
 extension LoginView: LoginViewProtocol {
