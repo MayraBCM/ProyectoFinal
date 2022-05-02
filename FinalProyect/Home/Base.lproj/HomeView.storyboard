@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,18 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9C1-sJ-Ecm">
-                                <rect key="frame" x="20" y="637" width="374" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9C1-sJ-Ecm">
+                                <rect key="frame" x="20" y="796" width="374" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="0Jb-UF-yTE"/>
+                                    <constraint firstAttribute="height" constant="48" id="B9M-bU-hpv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="292" id="LRk-Ar-1Bo"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="374" id="T7l-YQ-Wk1"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="wVp-He-kGB"/>
+                                    <constraint firstAttribute="width" constant="374" id="xK2-z0-3uO"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.33333333333333331" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="LOG IN"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="logIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVg-i6-f1f"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.84831390528752848" green="0.81362795947203548" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9C1-sJ-Ecm" secondAttribute="bottom" constant="18" id="LBH-iL-O0u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9C1-sJ-Ecm" secondAttribute="trailing" constant="20" id="ig0-Fd-Xt0"/>
+                            <constraint firstItem="9C1-sJ-Ecm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jtC-Xb-UqR"/>
+                            <constraint firstItem="9C1-sJ-Ecm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="708" id="lLh-4I-UTD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jHq-2B-BEp"/>
                     <connections>
@@ -57,9 +76,4 @@
             <point key="canvasLocation" x="-351" y="56"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
