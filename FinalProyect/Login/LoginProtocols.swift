@@ -17,6 +17,7 @@ protocol LoginViewProtocol: class {
 protocol LoginWireFrameProtocol: class {
     // PRESENTER -> WIREFRAME
     static func createLoginModule() -> UIViewController
+    func presentNewView(from view: HomeViewProtocol)
 }
 
 protocol LoginPresenterProtocol: class {
