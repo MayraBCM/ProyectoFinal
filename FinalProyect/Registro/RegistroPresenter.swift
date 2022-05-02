@@ -20,6 +20,7 @@ class RegistroPresenter  {
 extension RegistroPresenter: RegistroPresenterProtocol {
     // TODO: implement presenter methods
     func viewDidLoad() {
+        print("Pantalla de Registro")
     }
 }
 

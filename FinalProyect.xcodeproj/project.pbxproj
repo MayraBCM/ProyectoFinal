@@ -35,6 +35,7 @@
 		C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA52820690D004DEB93 /* RegistroView.swift */; };
 		C85E9DAD2820690D004DEB93 /* RegistroRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */; };
 		C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */; };
+		C85E9DB028209479004DEB93 /* RegistroView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9DAF28209479004DEB93 /* RegistroView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		C85E9DA52820690D004DEB93 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
 		C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroWireFrame.swift; sourceTree = "<group>"; };
+		C85E9DAF28209479004DEB93 /* RegistroView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistroView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				C85E9DA52820690D004DEB93 /* RegistroView.swift */,
 				C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */,
 				C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */,
+				C85E9DAF28209479004DEB93 /* RegistroView.storyboard */,
 			);
 			path = Registro;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				C85E9D7728204310004DEB93 /* LaunchScreen.storyboard in Resources */,
 				C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */,
 				C85E9D7428204310004DEB93 /* Assets.xcassets in Resources */,
+				C85E9DB028209479004DEB93 /* RegistroView.storyboard in Resources */,
 				C85E9D6F2820430E004DEB93 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
