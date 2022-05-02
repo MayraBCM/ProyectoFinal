@@ -17,6 +17,7 @@ protocol LoginViewProtocol: class {
 protocol LoginWireFrameProtocol: class {
     // PRESENTER -> WIREFRAME
     static func createLoginModule() -> UIViewController
+    func presentRegistroView(from view: LoginViewProtocol)
 }
 
 protocol LoginPresenterProtocol: class {
@@ -26,6 +27,10 @@ protocol LoginPresenterProtocol: class {
     var wireFrame: LoginWireFrameProtocol? { get set }
     
     func viewDidLoad()
+    
+    func ingresar()
+    func registro()
+    
 }
 
 protocol LoginInteractorOutputProtocol: class {

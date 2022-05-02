@@ -32,7 +32,7 @@ class LoginView: UIViewController {
     
     @IBAction func registrar(_ sender: Any) {
         
-        
+        presenter?.ingresar()
         
     }
     

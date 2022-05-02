@@ -28,7 +28,6 @@
 		C85E9D9A28204705004DEB93 /* LoginRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9328204705004DEB93 /* LoginRemoteDataManager.swift */; };
 		C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9428204705004DEB93 /* LoginWireFrame.swift */; };
 		C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D9C28204718004DEB93 /* LoginView.storyboard */; };
-		C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9E28206402004DEB93 /* nuevo.swift */; };
 		C85E9DA82820690D004DEB93 /* RegistroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */; };
 		C85E9DA92820690D004DEB93 /* RegistroLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */; };
 		C85E9DAA2820690D004DEB93 /* RegistroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */; };
@@ -62,7 +61,6 @@
 		C85E9D9328204705004DEB93 /* LoginRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9D9428204705004DEB93 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		C85E9D9C28204718004DEB93 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
-		C85E9D9E28206402004DEB93 /* nuevo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuevo.swift; sourceTree = "<group>"; };
 		C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPresenter.swift; sourceTree = "<group>"; };
 		C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroLocalDataManager.swift; sourceTree = "<group>"; };
 		C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroProtocols.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 		C85E9D5B2820430E004DEB93 = {
 			isa = PBXGroup;
 			children = (
-				C85E9D9E28206402004DEB93 /* nuevo.swift */,
 				C85E9D662820430E004DEB93 /* FinalProyect */,
 				C85E9D652820430E004DEB93 /* Products */,
 			);
@@ -252,7 +249,6 @@
 				C85E9D8528204321004DEB93 /* HomePresenter.swift in Sources */,
 				C85E9DAB2820690D004DEB93 /* RegistroInteractor.swift in Sources */,
 				C85E9D6A2820430E004DEB93 /* SceneDelegate.swift in Sources */,
-				C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */,
 				C85E9D9628204705004DEB93 /* LoginLocalDataManager.swift in Sources */,
 				C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */,
 				C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */,
