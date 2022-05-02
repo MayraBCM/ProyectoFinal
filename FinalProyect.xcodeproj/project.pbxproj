@@ -29,6 +29,13 @@
 		C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9428204705004DEB93 /* LoginWireFrame.swift */; };
 		C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D9C28204718004DEB93 /* LoginView.storyboard */; };
 		C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9E28206402004DEB93 /* nuevo.swift */; };
+		C85E9DA82820690D004DEB93 /* RegistroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */; };
+		C85E9DA92820690D004DEB93 /* RegistroLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */; };
+		C85E9DAA2820690D004DEB93 /* RegistroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */; };
+		C85E9DAB2820690D004DEB93 /* RegistroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA42820690D004DEB93 /* RegistroInteractor.swift */; };
+		C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA52820690D004DEB93 /* RegistroView.swift */; };
+		C85E9DAD2820690D004DEB93 /* RegistroRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */; };
+		C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +63,13 @@
 		C85E9D9428204705004DEB93 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		C85E9D9C28204718004DEB93 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		C85E9D9E28206402004DEB93 /* nuevo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuevo.swift; sourceTree = "<group>"; };
+		C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPresenter.swift; sourceTree = "<group>"; };
+		C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroLocalDataManager.swift; sourceTree = "<group>"; };
+		C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroProtocols.swift; sourceTree = "<group>"; };
+		C85E9DA42820690D004DEB93 /* RegistroInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroInteractor.swift; sourceTree = "<group>"; };
+		C85E9DA52820690D004DEB93 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
+		C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroRemoteDataManager.swift; sourceTree = "<group>"; };
+		C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroWireFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,7 @@
 		C85E9D662820430E004DEB93 /* FinalProyect */ = {
 			isa = PBXGroup;
 			children = (
+				C85E9DA0282068F3004DEB93 /* Registro */,
 				C85E9D8D282046C9004DEB93 /* Login */,
 				C85E9D8C2820467D004DEB93 /* Home */,
 				C85E9D672820430E004DEB93 /* AppDelegate.swift */,
@@ -129,6 +144,20 @@
 				C85E9D9428204705004DEB93 /* LoginWireFrame.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		C85E9DA0282068F3004DEB93 /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */,
+				C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */,
+				C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */,
+				C85E9DA42820690D004DEB93 /* RegistroInteractor.swift */,
+				C85E9DA52820690D004DEB93 /* RegistroView.swift */,
+				C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */,
+				C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */,
+			);
+			path = Registro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,22 +234,29 @@
 			files = (
 				C85E9D8928204321004DEB93 /* HomeView.swift in Sources */,
 				C85E9D9A28204705004DEB93 /* LoginRemoteDataManager.swift in Sources */,
+				C85E9DA82820690D004DEB93 /* RegistroPresenter.swift in Sources */,
 				C85E9D722820430E004DEB93 /* FinalProyect.xcdatamodeld in Sources */,
 				C85E9D9828204705004DEB93 /* LoginInteractor.swift in Sources */,
 				C85E9D9928204705004DEB93 /* LoginView.swift in Sources */,
 				C85E9D8628204321004DEB93 /* HomeLocalDataManager.swift in Sources */,
 				C85E9D8828204321004DEB93 /* HomeInteractor.swift in Sources */,
+				C85E9DA92820690D004DEB93 /* RegistroLocalDataManager.swift in Sources */,
 				C85E9D9528204705004DEB93 /* LoginPresenter.swift in Sources */,
+				C85E9DAD2820690D004DEB93 /* RegistroRemoteDataManager.swift in Sources */,
+				C85E9DAA2820690D004DEB93 /* RegistroProtocols.swift in Sources */,
 				C85E9D8B28204321004DEB93 /* HomeWireFrame.swift in Sources */,
 				C85E9D682820430E004DEB93 /* AppDelegate.swift in Sources */,
 				C85E9D8A28204321004DEB93 /* HomeRemoteDataManager.swift in Sources */,
 				C85E9D8728204321004DEB93 /* HomeProtocols.swift in Sources */,
 				C85E9D9728204705004DEB93 /* LoginProtocols.swift in Sources */,
 				C85E9D8528204321004DEB93 /* HomePresenter.swift in Sources */,
+				C85E9DAB2820690D004DEB93 /* RegistroInteractor.swift in Sources */,
 				C85E9D6A2820430E004DEB93 /* SceneDelegate.swift in Sources */,
 				C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */,
 				C85E9D9628204705004DEB93 /* LoginLocalDataManager.swift in Sources */,
+				C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */,
 				C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */,
+				C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

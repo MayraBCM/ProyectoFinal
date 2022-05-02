@@ -24,10 +24,16 @@ class LoginView: UIViewController {
     
     
     @IBAction func ingresar(_ sender: Any) {
+        
+        
+        
     }
     
     
     @IBAction func registrar(_ sender: Any) {
+        
+        
+        
     }
     
     
