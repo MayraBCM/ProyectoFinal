@@ -11,6 +11,8 @@ import UIKit
 
 class LoginWireFrame: LoginWireFrameProtocol {
     
+    
+    
 
     class func createLoginModule() -> UIViewController {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "LoginView")
@@ -40,12 +42,11 @@ class LoginWireFrame: LoginWireFrameProtocol {
     }
     
     
-    func presentNewView(from view: HomeViewProtocol) {
+    func presentRegistroView(from view: LoginViewProtocol) {
         let newRegistroView = RegistroWireFrame.createRegistroModule()
         if let newView = view as? UIViewController{
             newView.navigationController?.pushViewController(newRegistroView, animated: true)
         }
     }
-    
     
 }

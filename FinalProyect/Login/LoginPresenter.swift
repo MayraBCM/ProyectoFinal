@@ -10,6 +10,8 @@ import Foundation
 
 class LoginPresenter : LoginPresenterProtocol {
     
+    
+    
     // MARK: Properties
     weak var view: LoginViewProtocol?
     var interactor: LoginInteractorInputProtocol?
@@ -20,6 +22,16 @@ class LoginPresenter : LoginPresenterProtocol {
         
         print("soy la vista login")
     }
+    func ingresar() {
+        if(0 == 0){
+            wireFrame?.presentRegistroView(from: view!)
+        }
+    }
+    
+    func registro() {
+        wireFrame?.presentRegistroView(from: view!)
+    }
+    
 }
 
 extension LoginPresenter: LoginInteractorOutputProtocol {
