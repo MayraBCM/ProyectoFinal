@@ -28,6 +28,7 @@
 		C85E9D9A28204705004DEB93 /* LoginRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9328204705004DEB93 /* LoginRemoteDataManager.swift */; };
 		C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9428204705004DEB93 /* LoginWireFrame.swift */; };
 		C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D9C28204718004DEB93 /* LoginView.storyboard */; };
+		C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D9E28206402004DEB93 /* nuevo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		C85E9D9328204705004DEB93 /* LoginRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9D9428204705004DEB93 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		C85E9D9C28204718004DEB93 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		C85E9D9E28206402004DEB93 /* nuevo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuevo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		C85E9D5B2820430E004DEB93 = {
 			isa = PBXGroup;
 			children = (
+				C85E9D9E28206402004DEB93 /* nuevo.swift */,
 				C85E9D662820430E004DEB93 /* FinalProyect */,
 				C85E9D652820430E004DEB93 /* Products */,
 			);
@@ -215,6 +218,7 @@
 				C85E9D9728204705004DEB93 /* LoginProtocols.swift in Sources */,
 				C85E9D8528204321004DEB93 /* HomePresenter.swift in Sources */,
 				C85E9D6A2820430E004DEB93 /* SceneDelegate.swift in Sources */,
+				C85E9D9F28206402004DEB93 /* nuevo.swift in Sources */,
 				C85E9D9628204705004DEB93 /* LoginLocalDataManager.swift in Sources */,
 				C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */,
 			);
