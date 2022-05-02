@@ -16,38 +16,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingresar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czF-xl-lpq">
-                                <rect key="frame" x="166" y="174" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="GRF-z0-IAc">
+                                <rect key="frame" x="-82.5" y="0.0" width="579" height="898"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="579" id="9g2-Re-Yvl"/>
+                                    <constraint firstAttribute="height" constant="898" id="O7s-rC-MbJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3if-YH-u6g">
+                                <rect key="frame" x="0.0" y="654" width="414" height="243"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58239341887417218" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="243" id="42t-Ka-hh5"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="Ip7-Vx-d4c"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="414" id="kN3-kH-ik4"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="243" id="o2C-0V-tTA"/>
+                                    <constraint firstAttribute="width" constant="414" id="vRV-cx-jPq"/>
+                                    <constraint firstAttribute="height" constant="243" id="zng-r1-Aa4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB7-Zx-16o">
-                                <rect key="frame" x="159" y="770" width="78" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2Z-fX-q5M">
+                                <rect key="frame" x="20" y="710" width="374" height="48"/>
+                                <color key="backgroundColor" red="0.92156863209999995" green="0.38431376220000002" blue="0.1647058874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="OSb-wW-sqt"/>
+                                    <constraint firstAttribute="width" constant="296" id="iZ1-wA-aUC"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Registro"/>
-                                <connections>
-                                    <action selector="registrar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ocj-cw-6f1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2Z-fX-q5M">
-                                <rect key="frame" x="157" y="701" width="77" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Ingresar"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ingresar">
+                                    <color key="baseBackgroundColor" red="0.92156863209999995" green="0.38431376220000002" blue="0.1647058874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ingresar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="OtU-Bg-v1A"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="GRF-z0-IAc">
-                                <rect key="frame" x="-94" y="0.0" width="579" height="898"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB7-Zx-16o">
+                                <rect key="frame" x="20" y="779" width="374" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="840-ir-2zq"/>
+                                    <constraint firstAttribute="height" constant="31" id="QKB-gx-rdA"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="321" id="cjO-2v-HNh"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="296" id="l0V-ZJ-wR0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="pn2-qs-TdB"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="xrE-tQ-gp8"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Registro">
+                                    <color key="baseBackgroundColor" red="0.92156863209999995" green="0.38431376220000002" blue="0.1647058874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="registrar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ocj-cw-6f1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="GRF-z0-IAc" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="lKs-CM-lcz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
