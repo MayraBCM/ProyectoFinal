@@ -193,7 +193,7 @@
 				C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */,
 			);
 			name = Catalogo;
-			path = "Catálogo";
+			path = "Catálogo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
