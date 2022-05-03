@@ -13,7 +13,8 @@ class CatalogoWireFrame: CatalogoWireFrameProtocol {
 
     class func createCatalogoModule() -> UIViewController {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "CatalogoView")
-        if let view = navController.children.first as? CatalogoView {
+        
+        if let view = navController as? CatalogoView {
             let presenter: CatalogoPresenterProtocol & CatalogoInteractorOutputProtocol = CatalogoPresenter()
             let interactor: CatalogoInteractorInputProtocol & CatalogoRemoteDataManagerOutputProtocol = CatalogoInteractor()
             let localDataManager: CatalogoLocalDataManagerInputProtocol = CatalogoLocalDataManager()
