@@ -1,18 +1,18 @@
 //
-//  RegistroView.swift
+//  CatalogoView.swift
 //  FinalProyect
 //
-//  Created by Mario Arceo on 02/05/22.
+//  Created by Mario Arceo on 03/05/22.
 //  
 //
 
 import Foundation
 import UIKit
 
-class RegistroView: UIViewController {
+class CatalogoView: UIViewController {
 
     // MARK: Properties
-    var presenter: RegistroPresenterProtocol?
+    var presenter: CatalogoPresenterProtocol?
 
     // MARK: Lifecycle
 
@@ -22,6 +22,6 @@ class RegistroView: UIViewController {
     }
 }
 
-extension RegistroView: RegistroViewProtocol {
+extension CatalogoView: CatalogoViewProtocol {
     // TODO: implement view output methods
 }

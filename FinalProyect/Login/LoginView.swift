@@ -25,22 +25,16 @@ class LoginView: UIViewController {
     
     @IBAction func ingresar(_ sender: Any) {
         
-        
+        presenter?.ingresar()
         
     }
     
     
     @IBAction func registrar(_ sender: Any) {
         
-        presenter?.ingresar()
+        presenter?.registro()
         
     }
-    
-    
-    
-    
-    
-    
     
 }
 
