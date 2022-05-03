@@ -35,6 +35,15 @@
 		C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA52820690D004DEB93 /* RegistroView.swift */; };
 		C85E9DAD2820690D004DEB93 /* RegistroRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */; };
 		C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */; };
+		C85E9DB028209479004DEB93 /* RegistroView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9DAF28209479004DEB93 /* RegistroView.storyboard */; };
+		C85E9DB928217D4B004DEB93 /* CatalogoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB228217D4A004DEB93 /* CatalogoPresenter.swift */; };
+		C85E9DBA28217D4B004DEB93 /* CatalogoLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB328217D4A004DEB93 /* CatalogoLocalDataManager.swift */; };
+		C85E9DBB28217D4B004DEB93 /* CatalogoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB428217D4A004DEB93 /* CatalogoProtocols.swift */; };
+		C85E9DBC28217D4B004DEB93 /* CatalogoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB528217D4A004DEB93 /* CatalogoInteractor.swift */; };
+		C85E9DBD28217D4B004DEB93 /* CatalogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB628217D4B004DEB93 /* CatalogoView.swift */; };
+		C85E9DBE28217D4B004DEB93 /* CatalogoRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB728217D4B004DEB93 /* CatalogoRemoteDataManager.swift */; };
+		C85E9DBF28217D4B004DEB93 /* CatalogoWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB828217D4B004DEB93 /* CatalogoWireFrame.swift */; };
+		C85E9DC128217F91004DEB93 /* CatalogoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +77,15 @@
 		C85E9DA52820690D004DEB93 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
 		C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroWireFrame.swift; sourceTree = "<group>"; };
+		C85E9DAF28209479004DEB93 /* RegistroView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistroView.storyboard; sourceTree = "<group>"; };
+		C85E9DB228217D4A004DEB93 /* CatalogoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoPresenter.swift; sourceTree = "<group>"; };
+		C85E9DB328217D4A004DEB93 /* CatalogoLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoLocalDataManager.swift; sourceTree = "<group>"; };
+		C85E9DB428217D4A004DEB93 /* CatalogoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoProtocols.swift; sourceTree = "<group>"; };
+		C85E9DB528217D4A004DEB93 /* CatalogoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoInteractor.swift; sourceTree = "<group>"; };
+		C85E9DB628217D4B004DEB93 /* CatalogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoView.swift; sourceTree = "<group>"; };
+		C85E9DB728217D4B004DEB93 /* CatalogoRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoRemoteDataManager.swift; sourceTree = "<group>"; };
+		C85E9DB828217D4B004DEB93 /* CatalogoWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoWireFrame.swift; sourceTree = "<group>"; };
+		C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatalogoView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,7 @@
 		C85E9D662820430E004DEB93 /* FinalProyect */ = {
 			isa = PBXGroup;
 			children = (
+				C85E9DB128217BA8004DEB93 /* Catalogo */,
 				C85E9DA0282068F3004DEB93 /* Registro */,
 				C85E9D8D282046C9004DEB93 /* Login */,
 				C85E9D8C2820467D004DEB93 /* Home */,
@@ -153,8 +172,25 @@
 				C85E9DA52820690D004DEB93 /* RegistroView.swift */,
 				C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */,
 				C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */,
+				C85E9DAF28209479004DEB93 /* RegistroView.storyboard */,
 			);
 			path = Registro;
+			sourceTree = "<group>";
+		};
+		C85E9DB128217BA8004DEB93 /* Catalogo */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9DB228217D4A004DEB93 /* CatalogoPresenter.swift */,
+				C85E9DB328217D4A004DEB93 /* CatalogoLocalDataManager.swift */,
+				C85E9DB428217D4A004DEB93 /* CatalogoProtocols.swift */,
+				C85E9DB528217D4A004DEB93 /* CatalogoInteractor.swift */,
+				C85E9DB628217D4B004DEB93 /* CatalogoView.swift */,
+				C85E9DB728217D4B004DEB93 /* CatalogoRemoteDataManager.swift */,
+				C85E9DB828217D4B004DEB93 /* CatalogoWireFrame.swift */,
+				C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */,
+			);
+			name = Catalogo;
+			path = "Catálogo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85E9D7728204310004DEB93 /* LaunchScreen.storyboard in Resources */,
+				C85E9DC128217F91004DEB93 /* CatalogoView.storyboard in Resources */,
 				C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */,
 				C85E9D7428204310004DEB93 /* Assets.xcassets in Resources */,
+				C85E9DB028209479004DEB93 /* RegistroView.storyboard in Resources */,
 				C85E9D6F2820430E004DEB93 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,8 +271,11 @@
 				C85E9D9A28204705004DEB93 /* LoginRemoteDataManager.swift in Sources */,
 				C85E9DA82820690D004DEB93 /* RegistroPresenter.swift in Sources */,
 				C85E9D722820430E004DEB93 /* FinalProyect.xcdatamodeld in Sources */,
+				C85E9DBC28217D4B004DEB93 /* CatalogoInteractor.swift in Sources */,
 				C85E9D9828204705004DEB93 /* LoginInteractor.swift in Sources */,
 				C85E9D9928204705004DEB93 /* LoginView.swift in Sources */,
+				C85E9DBF28217D4B004DEB93 /* CatalogoWireFrame.swift in Sources */,
+				C85E9DBE28217D4B004DEB93 /* CatalogoRemoteDataManager.swift in Sources */,
 				C85E9D8628204321004DEB93 /* HomeLocalDataManager.swift in Sources */,
 				C85E9D8828204321004DEB93 /* HomeInteractor.swift in Sources */,
 				C85E9DA92820690D004DEB93 /* RegistroLocalDataManager.swift in Sources */,
@@ -250,9 +291,13 @@
 				C85E9DAB2820690D004DEB93 /* RegistroInteractor.swift in Sources */,
 				C85E9D6A2820430E004DEB93 /* SceneDelegate.swift in Sources */,
 				C85E9D9628204705004DEB93 /* LoginLocalDataManager.swift in Sources */,
+				C85E9DB928217D4B004DEB93 /* CatalogoPresenter.swift in Sources */,
 				C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */,
 				C85E9D9B28204705004DEB93 /* LoginWireFrame.swift in Sources */,
 				C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */,
+				C85E9DBA28217D4B004DEB93 /* CatalogoLocalDataManager.swift in Sources */,
+				C85E9DBD28217D4B004DEB93 /* CatalogoView.swift in Sources */,
+				C85E9DBB28217D4B004DEB93 /* CatalogoProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

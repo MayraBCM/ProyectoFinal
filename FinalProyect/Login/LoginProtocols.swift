@@ -18,6 +18,7 @@ protocol LoginWireFrameProtocol: class {
     // PRESENTER -> WIREFRAME
     static func createLoginModule() -> UIViewController
     func presentRegistroView(from view: LoginViewProtocol)
+    func presentCatalogoView(from view: LoginViewProtocol)
 }
 
 protocol LoginPresenterProtocol: class {

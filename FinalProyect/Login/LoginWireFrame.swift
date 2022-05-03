@@ -13,6 +13,7 @@ class LoginWireFrame: LoginWireFrameProtocol {
     
     
     
+    
 
     class func createLoginModule() -> UIViewController {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "LoginView")
@@ -46,6 +47,13 @@ class LoginWireFrame: LoginWireFrameProtocol {
         let newRegistroView = RegistroWireFrame.createRegistroModule()
         if let newView = view as? UIViewController{
             newView.navigationController?.pushViewController(newRegistroView, animated: true)
+        }
+    }
+    
+    func presentCatalogoView(from view: LoginViewProtocol) {
+        let newCatalogoView = CatalogoWireFrame.createCatalogoModule()
+        if let newView = view as? UIViewController{
+            newView.navigationController?.pushViewController(newCatalogoView, animated: true)
         }
     }
     

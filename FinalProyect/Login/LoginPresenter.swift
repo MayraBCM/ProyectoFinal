@@ -10,8 +10,6 @@ import Foundation
 
 class LoginPresenter : LoginPresenterProtocol {
     
-    
-    
     // MARK: Properties
     weak var view: LoginViewProtocol?
     var interactor: LoginInteractorInputProtocol?
@@ -24,7 +22,7 @@ class LoginPresenter : LoginPresenterProtocol {
     }
     func ingresar() {
         if(0 == 0){
-            wireFrame?.presentRegistroView(from: view!)
+            wireFrame?.presentCatalogoView(from: view!)
         }
     }
     
