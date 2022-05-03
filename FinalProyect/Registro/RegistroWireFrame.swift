@@ -13,7 +13,7 @@ class RegistroWireFrame: RegistroWireFrameProtocol {
 
     class func createRegistroModule() -> UIViewController {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "RegistroView")
-        if let view = navController.children.first as? RegistroView {
+        if let view = navController as? RegistroView {
             let presenter: RegistroPresenterProtocol & RegistroInteractorOutputProtocol = RegistroPresenter()
             let interactor: RegistroInteractorInputProtocol & RegistroRemoteDataManagerOutputProtocol = RegistroInteractor()
             let localDataManager: RegistroLocalDataManagerInputProtocol = RegistroLocalDataManager()
