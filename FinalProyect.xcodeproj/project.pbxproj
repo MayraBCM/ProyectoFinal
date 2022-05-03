@@ -44,6 +44,7 @@
 		C85E9DBE28217D4B004DEB93 /* CatalogoRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB728217D4B004DEB93 /* CatalogoRemoteDataManager.swift */; };
 		C85E9DBF28217D4B004DEB93 /* CatalogoWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DB828217D4B004DEB93 /* CatalogoWireFrame.swift */; };
 		C85E9DC128217F91004DEB93 /* CatalogoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */; };
+		C85E9DC328219367004DEB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9DC228219367004DEB93 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		C85E9DB728217D4B004DEB93 /* CatalogoRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9DB828217D4B004DEB93 /* CatalogoWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoWireFrame.swift; sourceTree = "<group>"; };
 		C85E9DC028217F91004DEB93 /* CatalogoView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatalogoView.storyboard; sourceTree = "<group>"; };
+		C85E9DC228219367004DEB93 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				C85E9D7528204310004DEB93 /* LaunchScreen.storyboard */,
 				C85E9D7828204310004DEB93 /* Info.plist */,
 				C85E9D702820430E004DEB93 /* FinalProyect.xcdatamodeld */,
+				C85E9DC228219367004DEB93 /* Main.storyboard */,
 			);
 			path = FinalProyect;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85E9DC328219367004DEB93 /* Main.storyboard in Resources */,
 				C85E9D7728204310004DEB93 /* LaunchScreen.storyboard in Resources */,
 				C85E9DC128217F91004DEB93 /* CatalogoView.storyboard in Resources */,
 				C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */,
