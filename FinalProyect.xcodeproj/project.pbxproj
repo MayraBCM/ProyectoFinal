@@ -35,6 +35,7 @@
 		C85E9DAC2820690D004DEB93 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA52820690D004DEB93 /* RegistroView.swift */; };
 		C85E9DAD2820690D004DEB93 /* RegistroRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */; };
 		C85E9DAE2820690D004DEB93 /* RegistroWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */; };
+		D00402F62821672D00AC750C /* RegistroView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00402F52821672D00AC750C /* RegistroView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		C85E9DA52820690D004DEB93 /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
 		C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroRemoteDataManager.swift; sourceTree = "<group>"; };
 		C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroWireFrame.swift; sourceTree = "<group>"; };
+		D00402F52821672D00AC750C /* RegistroView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistroView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +118,14 @@
 		C85E9D8C2820467D004DEB93 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C85E9D6D2820430E004DEB93 /* HomeView.storyboard */,
+				C85E9D8228204321004DEB93 /* HomeView.swift */,
 				C85E9D7E28204321004DEB93 /* HomePresenter.swift */,
 				C85E9D7F28204321004DEB93 /* HomeLocalDataManager.swift */,
 				C85E9D8028204321004DEB93 /* HomeProtocols.swift */,
 				C85E9D8128204321004DEB93 /* HomeInteractor.swift */,
-				C85E9D8228204321004DEB93 /* HomeView.swift */,
 				C85E9D8328204321004DEB93 /* HomeRemoteDataManager.swift */,
 				C85E9D8428204321004DEB93 /* HomeWireFrame.swift */,
-				C85E9D6D2820430E004DEB93 /* HomeView.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -146,11 +148,12 @@
 		C85E9DA0282068F3004DEB93 /* Registro */ = {
 			isa = PBXGroup;
 			children = (
+				D00402F52821672D00AC750C /* RegistroView.storyboard */,
+				C85E9DA52820690D004DEB93 /* RegistroView.swift */,
 				C85E9DA12820690D004DEB93 /* RegistroPresenter.swift */,
 				C85E9DA22820690D004DEB93 /* RegistroLocalDataManager.swift */,
 				C85E9DA32820690D004DEB93 /* RegistroProtocols.swift */,
 				C85E9DA42820690D004DEB93 /* RegistroInteractor.swift */,
-				C85E9DA52820690D004DEB93 /* RegistroView.swift */,
 				C85E9DA62820690D004DEB93 /* RegistroRemoteDataManager.swift */,
 				C85E9DA72820690D004DEB93 /* RegistroWireFrame.swift */,
 			);
@@ -218,6 +221,7 @@
 				C85E9D7728204310004DEB93 /* LaunchScreen.storyboard in Resources */,
 				C85E9D9D28204718004DEB93 /* LoginView.storyboard in Resources */,
 				C85E9D7428204310004DEB93 /* Assets.xcassets in Resources */,
+				D00402F62821672D00AC750C /* RegistroView.storyboard in Resources */,
 				C85E9D6F2820430E004DEB93 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
